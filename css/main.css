@@ -1,0 +1,49 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-color: #FCFBE3;
+  color: #EA6045;
+  margin: 3em;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+button {
+  background: #EA6045;
+  color: white;
+  outline: none;
+  border: 2px solid transparent;
+  padding: 10px 15px;
+  font-size: .9em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin: 5px;
+  width: 150px;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+  border-radius: 4px;
+}
+
+button:active,
+button:hover {
+  background: #FCFBE3;
+  color: #EA6045;
+  border: 2px solid #EA6045;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
